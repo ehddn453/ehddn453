@@ -1,0 +1,204 @@
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Sen:wght@400;700;800&display=swap');
+
+*{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Sen', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box; /* border나 padding 사용 시 박스 사이즈 변화 없음 */
+    color: #555;
+    font-weight: bold;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+html,body{margin: 0; }
+ul,li,ol{
+    list-style-type: none; 
+    margin: 0; padding: 0;
+}
+h1,h2,h3,h4,h5,h6,figure,p{margin: 0;}
+img{vertical-align: top;}
+a{text-decoration: none;}
+body{
+    background-color: rgba(82, 82, 82, 0.514);
+}
+
+main{
+    width: 60%;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 2px solid #000;
+    margin-top: 1%;
+    padding: 2% 4%;
+}
+.order{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+.order > .order_img{
+    width: 50%;
+}
+.order > .order_img > .full_img{
+    width: 70%;
+    border: 1px solid rgb(133, 133, 133);
+    
+}
+.order > .order_img > .full_img > img{width: 100%; object-fit: fill;}
+.order > .order_img > ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+    margin-top: 2%;
+}
+.order > .order_img > ul > li{
+    width: 12%; height: 4vh;
+    margin-right: 3%;
+    border: 1px solid rgb(133, 133, 133);
+}
+.order > .order_img > ul > li > img{width: 100%; height: 100%; object-fit: fill;}
+
+.order > .order_text{
+    
+}
+.order > .order_text > h2{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin: 3% 0;
+}
+.order > .order_text > ul{
+    margin: 5% 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.order > .order_text > ul > li{
+    margin: 3% 0; width: 50%;
+    font-weight: normal;
+}
+.order > .order_text > ul > li > label{margin-right: 10%;}
+.order > .order_text > ul > li:nth-of-type(2) > input{font-weight: normal;}
+.order > .order_text > ul > li:nth-of-type(3){
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.order > .order_text > ul > li > input{width: 20%; }
+.order > .order_text > p{
+    white-space: pre-line;
+    font-weight: normal;
+    font-size: 0.9rem;
+    border-top: 1px solid #999;
+    line-height: 200%;
+    overflow-y: scroll;
+    height: 20vh;
+}
+.order > .order_text > a{
+    display: inline-block;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 1% 5%;
+    border: 1px solid #555;
+    margin-top: 5%;
+    float: right;
+    transition: .5s;
+}
+.order > .order_text > a::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.order > .order_text > a:hover{
+    background-color: #777;
+    color: #fff;
+}
+
+section{display: none;}
+
+
+
+.order_under{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    margin: 2% 0;
+    padding-top: 5%;
+    border-top: 1px solid #555;
+}
+.order_under > .order_items{
+    width: 40%;
+    padding: 2% 3%;
+    overflow-y: scroll; height: 17vh;
+}
+.order_under > .order_items > legend{font-size: 1.1rem;}
+.order_under > .order_items > ul{}
+.order_under > .order_items > ul > li{
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.order_under > .order_items > ul > li > span{float: right;}
+.order_under > .order_input{
+    width: 60%;
+    padding: 2%;
+    
+}
+.order_under > .order_input > legend{font-size: 1.1rem;}
+.order_under > .order_input > ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.order_under > .order_input > ul > li{
+    padding-bottom: 1%;
+}
+.order_under > .order_input > ul > li > label{font-weight: normal;margin-right: 1%;}
+.order_under > .order_input > ul > li > input{width: 70%;}
+.order_under > .order_input > ul > li:nth-of-type(3) > input{
+    width: 90%;
+    margin-bottom: 1%;
+    float: right;
+}
+
+
+
+.order_sum{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+
+}
+.order_sum > p{
+    white-space: pre-line;
+    font-size: 0.7rem;
+    font-weight: normal;
+
+}
+.order_sum > .order_all{
+    width: 80%;
+    text-align: right;
+}
+.order_sum > .order_all > ul{
+    
+}
+.order_sum > .order_all > ul > li{
+    font-weight: normal;
+    padding: 1% 0;
+}
+.order_sum > .order_all span{padding-left: 10%;}
+.order_sum > .order_all > h2{
+    font-size: 1.1rem;
+    margin: 1% 0;
+}
+.order_sum > .order_all > h2 > span{font-size: 1.1rem;}
+.order_sum > .order_all > a{
+    display: inline-block;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 1% 5%;
+    border: 1px solid #555;
+    margin-top: 2%;
+}

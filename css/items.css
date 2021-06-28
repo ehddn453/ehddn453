@@ -1,0 +1,124 @@
+header{
+    background-color: rgba(0, 0, 0, 0.24);
+    margin: 0;
+    padding: 1% 0;
+}
+/* items1  */
+.items1{
+    background: url('../img/background/items_bg.jpg') no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    height: 75vh;
+}
+.items1 > article{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 25%;
+    text-shadow: -2px 0 rgba(88, 88, 88, 0.6), 
+                0 2px rgb(88, 88, 88, 0.6), 
+                2px 0 rgb(88, 88, 88, 0.6), 
+                0 -2px rgb(88, 88, 88, 0.6);
+}
+.items1 > article > h3{
+    font-size: 3rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #fff;
+}
+.items1 > article > h2{
+    font-size: 4rem;
+    text-decoration: underline;
+    color: #fff;
+    text-transform: uppercase;
+}
+/* items1  */
+/* items2 */
+.items2{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    
+}
+.items2 > .men{
+    width: 50%; height: 100%;
+    margin: 10% 5% 0 0;
+    position: sticky;
+    top: 10%;
+}
+.items2 > .men > a{
+    display: block;
+    width: 80%;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    line-height: 200%;
+    border-bottom: 1px solid rgb(161, 161, 161);
+    color: #000;
+    font-weight: normal;
+    transition: .5s;
+}
+.items2 > .men > a:nth-of-type(1){}
+.items2 > .men > a:nth-of-type(1) > span{
+    display: block;
+    font-weight: normal;
+}
+.items2 > .diy{
+    margin-top: 10%;
+}
+.items2 > .diy > h3{
+    color: #000;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-bottom: 3%;
+}
+.items2 > .diy > .item{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.items2 > .diy > .item > li{
+    margin-bottom: 5%;
+    width: 23%; height: 30vh;
+    position: relative;
+}
+.items2 > .diy > .item > li > a{}
+.items2 > .diy > .item > li > a > img{
+    width: 100%; height: 100%;
+    object-fit: fill;}
+.items2 > .diy > .item > li > a > span{
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 3%;
+}
+.items2 > .diy > .item > li > a > article{
+    width: 100%; height: 100%;
+    position: absolute;
+    left: 0; top: 0;
+    background-color: rgba(88, 88, 88, 0.6);
+    padding: 20% 10%;
+    display: none;
+}
+.items2 > .diy > .item > li > a > article > h3{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.items2 > .diy > .item > li > a > article > p{
+    white-space: pre-line;
+    color: #fff;
+    font-weight: normal;
+    font-size: 1.1rem;
+    line-height: 200%;
+}
+/* hover  */
+.items2 > .diy > .item > li:hover > a > article{
+    display: block;
+}
+.items2 > .men > a:hover{
+    color: salmon;
+}
+/* hover  */
+/* items2 */
