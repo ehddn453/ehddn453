@@ -244,6 +244,18 @@ footer > .foot > li > p{
     .head > .icon{
         display: none;
     }
+    .head > .bg > .category{
+        width: 70%;
+        background-color: rgba(194, 194, 194, 0.897);
+    }
+    .head > .bg > .category > h2{display: none;}
+    .head > .bg > .category > h3{
+        margin-top: 10%;
+        font-size: 1.3rem;
+    }
+    .head > .bg > .category > nav > a{font-size: 1.5rem;}
+    .head > .bg > .category > figcaption{display: none;}
+
     footer{
         width: 100%;
         border-top: 0.1rem solid rgb(205, 205, 205);
@@ -260,6 +272,6 @@ footer > .foot > li > p{
         font-size: 0.2rem;
     }
     footer > .foot > li:nth-of-type(2){
-        display: none;
+        
     }
 }
