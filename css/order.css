@@ -116,7 +116,8 @@ main{
     color: #fff;
 }
 
-section{display: none;}
+/* under  *//* under  *//* under  *//* under  *//* under  */
+/* section{display: none;} */
 
 
 
@@ -154,9 +155,11 @@ section{display: none;}
 }
 .order_under > .order_input > ul > li{
     padding-bottom: 1%;
+    
 }
 .order_under > .order_input > ul > li > label{font-weight: normal;margin-right: 1%;}
 .order_under > .order_input > ul > li > input{width: 70%;}
+.order_under > .order_input > ul > li:nth-of-type(3){width: 90%;}
 .order_under > .order_input > ul > li:nth-of-type(3) > input{
     width: 90%;
     margin-bottom: 1%;
@@ -175,10 +178,10 @@ section{display: none;}
     white-space: pre-line;
     font-size: 0.7rem;
     font-weight: normal;
-
+    width: 40%;
 }
 .order_sum > .order_all{
-    width: 80%;
+    width: 60%;
     text-align: right;
 }
 .order_sum > .order_all > ul{
@@ -201,4 +204,169 @@ section{display: none;}
     padding: 1% 5%;
     border: 1px solid #555;
     margin-top: 2%;
+}
+
+
+@media(min-width:992px) and (max-width:1297px){
+    main{width: 90%;}
+    /* under  */
+    .order_under{
+        display: block;
+        width: 100%;
+    }
+    .order_under > .order_items{width: 100%; height: 15vh;}
+    .order_under > .order_input{width: 100%; margin-top: 5%;}
+    .order_under > .order_input > ul{display: block;}
+    .order_under > .order_input > ul > li > input{width: 100%;} 
+    .order_under > .order_input > ul > li:nth-of-type(3) > input{
+        width: 100%;
+    }
+    /* under  */
+    
+    
+}
+@media(min-width:768px) and (max-width:991px){
+    main{width: 90%;}
+    .order{display: block;}
+    .order > .order_img{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .order > .order_img > ul{
+        display: block;
+        width: 40%;
+    }
+    .order > .order_img > ul > li{
+        margin: 2% auto;
+        width: 15vw; height: 10vh;
+    }
+    /* image  */
+     /* text  */
+     .order > .order_text > h2{font-size: 1.3rem;}
+     .order > .order_text > ul{margin: 2% 0;}
+     .order > .order_text > ul > li{
+         margin: 1% 0;
+         font-size: 1rem;
+     }
+     .order > .order_text > ul > li > label{font-size: 0.7rem;}
+     .order > .order_text > p{font-size: 0.7rem;}
+     .order > .order_text > a{float: none;}
+     /* text  */
+     /* under  */
+    .order_under{
+        display: block;
+        width: 100%;
+    }
+    .order_under > .order_items{
+        width: 100%; height: 13vh;
+        padding: 3% 5%;
+        margin: 0 auto 3%;
+    }
+    .order_under > .order_items > legend{font-size: 0.8rem;}
+    .order_under > .order_items > ul > li{font-size: 0.8rem;}
+    .order_under > .order_items > ul > li > span{font-size: 0.8rem;}
+    .order_under > .order_input{
+        width: 100%;
+        margin: 0 auto;
+        padding: 3% 5%;
+    }
+    .order_under > .order_input > legend{font-size: 0.8rem;}
+    .order_under > .order_input > ul{display: block;}
+    .order_under > .order_input > ul > li > label{font-size: 0.8rem;}
+    .order_under > .order_input > ul > li > input{
+        width: 100%;
+    }
+    .order_under > .order_input > ul > li:nth-of-type(3) > input{width: 100%;}
+    /* under  */
+    /* sum  */
+    .order_sum > p{
+        width: 100%;
+        font-size: 0.5rem;
+        text-align: left;
+    }
+    .order_sum > .order_all{
+        width: 100%;
+        margin-top: 5%;
+        text-align: right;
+    }
+    .order_sum > .order_all > ul > li{font-size: 0.8rem;}
+    .order_sum > .order_all > h2{font-size: 0.8rem;}
+    .order_sum > .order_all > a{
+        margin-top: 5%;
+        font-size: 0.9rem;
+    }
+    /* sum  */
+}
+@media(max-width:767px){
+    main{width: 90%;}
+    .order{display: block;}
+    .order > .order_img{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .order > .order_img > ul{
+        display: block;
+        width: 40%;
+    }
+    .order > .order_img > ul > li{
+        margin: 2% auto;
+        width: 15vw; height: 7vh;
+    }
+    /* image  */
+    /* text  */
+    .order > .order_text > h2{font-size: 1rem;}
+    .order > .order_text > ul{margin: 3% 0;}
+    .order > .order_text > ul > li{
+        margin: 1% 0;
+        font-size: 0.8rem;
+    }
+    .order > .order_text > ul > li > label{font-size: 0.7rem;}
+    .order > .order_text > p{font-size: 0.7rem;}
+    .order > .order_text > a{float: none;}
+    /* text  */
+    /* under  */
+    .order_under{
+        display: block;
+        width: 100%;
+    }
+    .order_under > .order_items{
+        width: 100%; 
+        margin: 0 auto;
+    }
+    .order_under > .order_items > legend{font-size: 0.8rem;}
+    .order_under > .order_items > ul > li{font-size: 0.8rem;}
+    .order_under > .order_items > ul > li > span{font-size: 0.8rem;}
+    .order_under > .order_input{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .order_under > .order_input > legend{font-size: 0.8rem;}
+    .order_under > .order_input > ul{display: block;}
+    .order_under > .order_input > ul > li > label{font-size: 0.8rem;}
+    .order_under > .order_input > ul > li > input{width: 100%;}
+    .order_under > .order_input > ul > li:nth-of-type(3) > input{width: 100%;}
+    /* under  */
+    /* sum  */
+    .order_sum{display: block;}
+    .order_sum > p{
+        width: 100%;
+        font-size: 0.5rem;
+        text-align: left;
+    }
+    .order_sum > .order_all{
+        width: 100%;
+        margin-top: 5%;
+        text-align: right;
+    }
+    .order_sum > .order_all > ul > li{font-size: 0.8rem;}
+    .order_sum > .order_all > h2{font-size: 0.8rem;}
+    .order_sum > .order_all > a{
+        margin-top: 5%;
+        font-size: 0.9rem;
+    }
+    /* sum  */
 }

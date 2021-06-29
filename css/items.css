@@ -46,6 +46,7 @@ header{
     margin: 10% 5% 0 0;
     position: sticky;
     top: 10%;
+    z-index: 995;
 }
 .items2 > .men > a{
     display: block;
@@ -84,7 +85,9 @@ header{
     width: 23%; height: 30vh;
     position: relative;
 }
-.items2 > .diy > .item > li > a{}
+.items2 > .diy > .item > li > a{
+    
+}
 .items2 > .diy > .item > li > a > img{
     width: 100%; height: 100%;
     object-fit: fill;}
@@ -123,6 +126,146 @@ header{
 /* hover  */
 /* items2 */
 
-@media(min-width:992px) and (max-width:1297px){}
-@media(min-width:768px) and (max-width:991px){}
-@media(max-width:767px){}
+@media(min-width:992px) and (max-width:1297px){
+    header{
+        background-color: rgba(0, 0, 0, 0);
+        margin-top: 2%;
+    }
+    .items1{height: 50vh;}
+    .items1 > article{padding-top: 17%;}
+    .items1 > article > h3{font-size: 2.5rem;}
+    .items1 > article > h2{font-size: 3.5rem;}
+    /* items1  */
+    /* items2  */
+    .items2{width: 90%;}
+    .items2 > .men{margin-right: 7%;}
+    .items2 > .men > a{
+        font-size: 1rem;
+        width: 100%;
+    }
+    .items2 > .men > a:nth-of-type(1) > span{font-size: 0.7rem;}
+    /* items2  */
+    .items2 > .diy{margin: 5% 0;}
+    .items2 > .diy > h3{
+        font-size: 1.5rem;
+        margin: 10% 0 0 0;
+    }
+    .items2 > .diy > .item > li{
+        width: 23%; height: 25vh;
+        margin: 5% 0;
+    }
+    .items2 > .diy > .item > li > a > span{font-size: 1rem;}
+
+    .items2 > .diy > .item > li > a > article > h3{
+        font-size: 1rem;
+    }
+    .items2 > .diy > .item > li > a > article > p{
+        font-size: 0.7rem;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    header{
+        background-color: rgba(0, 0, 0, 0);
+        margin-top: 2%;
+    }
+    .items1{height: 40vh;}
+    .items1 > article{padding-top: 20%;}
+    .items1 > article > h3{text-align: center;}
+    .items1 > article > h2{text-align: center;}
+    /* items1  */
+    /* items2  */
+    .items2{
+        display: block;
+        width: 100%;
+    }
+    .items2 > .men{
+        width: 100%;
+        margin: 0 auto;
+        padding: 2%;
+        text-align: center;
+        background-color: rgba(190, 190, 190, 0.726);
+        top: 0;
+    }
+    .items2 > .men a{
+        display: inline;
+        font-size: 1.2rem;
+        padding: 0 3%;
+        border-bottom: none;
+    }
+    .items2 > .men > a:nth-of-type(1) > span{display: none;}
+    /* items2  */
+    .items2 > .diy{
+        width: 90%;
+        margin: 15% auto;
+    }
+    .items2 > .diy > h3{
+        font-size: 1.5rem;
+        margin: 10% 0 0 0;
+    }
+    .items2 > .diy > .item > li{
+        width: 30%; height: 17vh;
+        margin: 5% 0;
+    }
+    .items2 > .diy > .item > li > a > span{font-size: 1rem;}
+
+    .items2 > .diy > .item > li > a > article > h3{display: none;}
+    .items2 > .diy > .item > li > a > article > p{display: none;}
+}
+@media(max-width:767px){
+    header{
+        background-color: rgba(0, 0, 0, 0);
+        margin-top: 5%;
+    }
+    .items1{height: 30vh;}
+    .items1 > article > h3{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .items1 > article > h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+    /* items1  */
+    /* items2  */
+    .items2{
+        display: block;
+        width: 100%;
+    }
+    .items2 > .men{
+        width: 100%;
+        margin: 0 auto;
+        padding: 2%;
+        text-align: center;
+        background-color: rgba(190, 190, 190, 0.726);
+        top: 0;
+    }
+    .items2 > .men a{
+        display: inline;
+        font-size: 0.7rem;
+        padding: 0 3%;
+        border-bottom: none;
+    }
+    .items2 > .men > a:nth-of-type(1) > span{display: none;}
+    
+    /* items2  */
+    .items2 > .diy{
+        width: 80%;
+        margin: 15% auto;
+    }
+    .items2 > .diy > h3{
+        font-size: 1.2rem;
+        margin: 15% 0 0 0;
+    }
+    .items2 > .diy > .item > li{
+        width: 30%; height: 15vh;
+        margin: 5% 0;
+    }
+    .items2 > .diy > .item > li > a > span{font-size: 0.7rem;}
+
+    .items2 > .diy > .item > li > a > article > h3{
+        font-size: 0.5rem;
+        text-align: center;
+        margin-top: 30%;
+    }
+    .items2 > .diy > .item > li > a > article > p{display: none;}
+}
