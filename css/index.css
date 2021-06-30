@@ -63,6 +63,7 @@
 /* main2 */
 .main2{
     padding: 3% 0 4%;
+    overflow: hidden;
 }
 
 .main2 > .diy{
@@ -114,11 +115,18 @@
     justify-content: flex-end;
     align-items: center;
     margin: 1% 0 5%;
-   
+    width: 200%;
+    /* transform: translateX(50%); */
+    animation: img 3s forwards infinite;
+}
+@keyframes img{
+    30%{transform: translateX(0);}
+    80%{transform: translateX(-50%);}
+    100%{transform: translateX(-50%);}
 }
 .main2 > .img > p{
-    width: 18vw; height: 47vh;
-    margin-left: 4%;
+    width: 20vw; height: 47vh;
+    margin-left: 3%;
     box-shadow: 10px 10px 20px rgb(112, 112, 112);
 }
 .main2 > .img > p > img{
@@ -529,7 +537,12 @@
     text-transform: uppercase;
     text-align: center;
 }
-.contact > ul > li{}
+.contact > ul > li{
+    border: 2px solid rgba(211, 211, 211, 0.623);
+    border-radius: 40px;
+    overflow: hidden;
+    transition: .5s;
+}
 .contact > ul > li img{width: 100%;}
 .contact > ul > li h2{
     font-size: 2.1rem;
@@ -541,6 +554,9 @@
     font-size: 1.2rem;
     font-weight: normal;
     margin: 2% 0;
+}
+.contact > ul > li:hover{
+    border: 2px solid #000;
 }
 
 /* contact */
@@ -566,7 +582,7 @@
         align-items: center;
     }
     .main2 > .img > p{
-        width: 30vw; 
+        width: 22vw; 
         margin:0 auto;
         box-shadow: 10px 10px 20px rgb(112, 112, 112);
     }
@@ -731,7 +747,7 @@
         align-items: center;
     }
     .main2 > .img > p{
-        width: 40vw; height: 35vh;
+        width: 30vw; height: 35vh;
         margin:0 auto;
         box-shadow: 10px 10px 20px rgb(112, 112, 112);
     }
@@ -918,7 +934,7 @@
         align-items: center;
     }
     .main2 > .img > p{
-        width: 40vw; height: 35vh;
+        width: 22vw; height: 25vh;
         margin:0 auto;
         box-shadow: 10px 10px 20px rgb(112, 112, 112);
     }

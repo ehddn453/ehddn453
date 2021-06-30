@@ -1,0 +1,126 @@
+
+.con_main1{
+    background: url('../img/background/contact_back.jpg') no-repeat;
+    background-size: cover;
+    height: 75vh;
+    opacity: 0.9;
+}
+.con_main1 > h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #fff;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 25%;
+    font-size: 2.5rem;
+    text-shadow: -2px 0 rgba(88, 88, 88, 0.6), 
+                0 2px rgb(88, 88, 88, 0.6), 
+                2px 0 rgb(88, 88, 88, 0.6), 
+                0 -2px rgb(88, 88, 88, 0.6);
+}
+.con_main2{
+    width: 60%;
+    margin: 0 auto;
+}
+.con_main2 > .con_notice{
+    margin: 10% auto;
+    width: 80%;
+    text-align: center;
+    border-top: 2px solid #555;
+    border-collapse: collapse;
+}
+.con_main2 > .con_notice > caption{
+    text-align: left;
+    font-weight: normal;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+}
+
+.con_main2 > .con_notice > thead th{
+    border-bottom: 2px solid #555;
+    padding: 1% 0;
+}
+.con_main2 > .con_notice > thead th:nth-of-type(2){width: 70%;}
+.con_main2 > .con_notice > tbody td{
+    font-weight: normal;
+    padding: 2% 0;
+}
+.con_main2 > .con_notice > tfoot td{
+    border-top: 2px solid #555;
+    font-weight: normal;
+    padding-top: 3%;
+}
+
+@media(min-width:992px) and (max-width:1297px){
+    .con_main1{height: 35vh;}
+    .con_main1 > h2{
+        font-size: 1.5rem;
+        text-align: center;
+        padding-top: 15%;
+        text-shadow: none;
+    }
+    .con_main2{width: 100%;}
+    .con_main2 > .con_notice{
+        width: 90%;
+        border-top: 1px solid #555;
+    }
+    .con_main2 > .con_notice > caption{
+        font-size: 1rem;
+    }
+    .con_main2 > .con_notice > thead th{
+        border-bottom: 1px solid #555;
+        font-size: 0.8rem;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .con_main1{height: 35vh;}
+    .con_main1 > h2{
+        font-size: 1.5rem;
+        text-align: center;
+        padding-top: 25%;
+        text-shadow: none;
+    }
+    .con_main2{width: 100%;}
+    .con_main2 > .con_notice{
+        width: 90%;
+        border-top: 1px solid #555;
+    }
+    .con_main2 > .con_notice > caption{
+        font-size: 1rem;
+    }
+    .con_main2 > .con_notice > thead th{
+        border-bottom: 1px solid #555;
+        font-size: 0.8rem;
+    }
+}
+@media(max-width:767px){
+    .con_main1{height: 35vh;}
+    .con_main1 > h2{
+        font-size: 1.5rem;
+        text-align: center;
+        padding-top: 35%;
+        text-shadow: none;
+    }
+    .con_main2{width: 100%;}
+    .con_main2 > .con_notice{
+        width: 90%;
+        border-top: 1px solid #555;
+    }
+    .con_main2 > .con_notice > caption{
+        font-size: 1rem;
+    }
+    .con_main2 > .con_notice > thead th{
+        border-bottom: 1px solid #555;
+        font-size: 0.8rem;
+    }
+    .con_main2 > .con_notice > tbody td{font-size: 0.8rem;}
+    .con_main2 > .con_notice > thead th:nth-of-type(4){display: none;}
+    .con_main2 > .con_notice > thead th:nth-of-type(5){display: none;}
+    .con_main2 > .con_notice > tbody tr td:nth-of-type(4){display: none;}
+    .con_main2 > .con_notice > tbody tr td:nth-of-type(5){display: none;}
+    .con_main2 > .con_notice > tfoot td{
+        border-top: 1px solid #555;
+        font-size: 0.8rem;
+    }
+}
