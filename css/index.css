@@ -16,12 +16,19 @@
     text-align: center;
     position: absolute;
     left: calc(50% - 32%); top: 58%;
+    overflow: hidden;
 }
 .main1 > .text > h2{
     font-size: 3rem;
     text-transform: uppercase;
     color: #fff;
     margin-bottom: 38px;
+    animation: logo 2s forwards;
+}
+@keyframes logo{
+    0%{transform: translateY(-400%); opacity: 0.2;}
+    50%{transform: translateY(100%) scale(1.2); opacity: 0.5; }
+    100%{transform: translateY(0) ;}
 }
 .main1 > .text > p{
     color: #fff;
@@ -51,7 +58,7 @@
     animation: s1 0.35s infinite alternate;
 }
 @keyframes s1{
-    0%{transform: translateY(40%);}
+    0%{transform: translateY(25%);}
     100%{transform: translateY(0%);}
 }
 /* main1  */
