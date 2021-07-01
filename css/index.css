@@ -727,7 +727,10 @@
     }
     .contact > h2{font-size: 1.5rem;}
     .contact > ul{width: 90%;}
-    .contact > ul > li{ width: 60%;}
+    .contact > ul > li{
+        width: 60%;
+        margin: 0 3%;
+    }
     .contact > ul > li h2{font-size: 1.5rem;}
     .contact > ul > li p{
         font-size: 1rem;
@@ -845,7 +848,7 @@
 
     .main4 > .img4{
         width: 100%;
-        border: 5px solid rgba(250, 128, 114, 0.63);
+        
         padding: 1%;
     }
     .main4 > .img4 > .left_img{
@@ -897,7 +900,11 @@
     }
     .contact > h2{font-size: 1.5rem;}
     .contact > ul{width: 90%;}
-    .contact > ul > li{ width: 60%;}
+    .contact > ul > li{
+        width: 60%;
+        border-radius: 30px;
+        margin: 0 3%;
+    }
     .contact > ul > li h2{font-size: 1.5rem;}
     .contact > ul > li p{
         font-size: 1rem;
@@ -1056,6 +1063,7 @@
 
     /* main4  */
     /* main5  */
+    .main5{height: 65vh;}
     .main5 > .event{
         width: 90%;
         left: calc(50% - 45%); top: 20%;    
@@ -1083,7 +1091,11 @@
     }
     .contact > h2{font-size: 1rem;}
     .contact > ul{width: 80%;}
-    .contact > ul > li{ width: 40%;}
+    .contact > ul > li{
+        width: 40%;
+        border-radius: 20px;
+        padding: 3%;
+    }
     .contact > ul > li h2{font-size: 0.9rem;}
     .contact > ul > li p{
         font-size: 0.5rem;
