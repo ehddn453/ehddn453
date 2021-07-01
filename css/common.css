@@ -24,7 +24,7 @@ a{text-decoration: none;}
 
 /* header  *//* header  *//* header  *//* header  *//* header  */
 header{
-    position: absolute;
+    position: fixed;
     left: 0; top: 0;
     width: 100%;
     margin-top: 35px;
@@ -41,7 +41,6 @@ header{
 /* buger menu */
 .head > .bg{
     margin: 0;
-    
 }
 .head > .bg > a{
     display: inline-block;
