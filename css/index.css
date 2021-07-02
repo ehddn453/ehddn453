@@ -951,7 +951,7 @@
         padding: 4% 2%;
     }
     .main2 > .diy > .left > h3{display: none;}
-    .main2 > .diy > .left > h2{font-size: 1.3rem;}
+    .main2 > .diy > .left > h2{font-size: 0.8rem;}
     .main2 > .diy > .right{display: none;}
     .main2 > .img{
         display: flex;
@@ -1101,14 +1101,14 @@
         width: 90%;
         margin: 10% auto;
     }
-    .contact > h2{font-size: 1rem;}
+    .contact > h2{font-size: 0.6rem;}
     .contact > ul{width: 80%;}
     .contact > ul > li{
         width: 40%;
         border-radius: 20px;
         padding: 3%;
     }
-    .contact > ul > li h2{font-size: 0.9rem;}
+    .contact > ul > li h2{font-size: 0.6rem;}
     .contact > ul > li p{
         font-size: 0.5rem;
         margin: 3% 0;
