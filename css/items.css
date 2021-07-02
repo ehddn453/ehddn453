@@ -1,11 +1,10 @@
 header{
-    background-color: rgba(0, 0, 0, 0.24);
     margin: 0;
     padding: 1% 0;
 }
 /* items1  */
 .items1{
-    background: url('../img/background/items_bg.jpg') no-repeat;
+    background: url('../new_img/background/items_background1.jpg') no-repeat;
     background-size: cover;
     opacity: 0.9;
     height: 75vh;
@@ -20,13 +19,13 @@ header{
                 0 -2px rgb(88, 88, 88, 0.6);
 }
 .items1 > article > h3{
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: normal;
     text-transform: uppercase;
     color: #fff;
 }
 .items1 > article > h2{
-    font-size: 4rem;
+    font-size: 3rem;
     text-decoration: underline;
     color: #fff;
     text-transform: uppercase;
@@ -52,7 +51,7 @@ header{
     display: block;
     width: 80%;
     text-transform: uppercase;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     line-height: 200%;
     border-bottom: 1px solid rgb(161, 161, 161);
     color: #000;
@@ -63,13 +62,14 @@ header{
 .items2 > .men > a:nth-of-type(1) > span{
     display: block;
     font-weight: normal;
+    font-size: 0.8rem;
 }
 .items2 > .diy{
     margin-top: 10%;
 }
 .items2 > .diy > h3{
     color: #000;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: normal;
     margin-bottom: 3%;
@@ -107,13 +107,13 @@ header{
 }
 .items2 > .diy > .item > li > a > article > h3{
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .items2 > .diy > .item > li > a > article > p{
     white-space: pre-line;
     color: #fff;
     font-weight: normal;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     line-height: 200%;
 }
 /* hover  */

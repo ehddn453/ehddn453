@@ -1,9 +1,8 @@
 @charset 'utf-8';
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Sen:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 
 *{
-    font-family: 'Nanum Gothic', sans-serif;
-    font-family: 'Sen', sans-serif;
+    font-family: 'Krona One', sans-serif;
     font-size: 16px;
     box-sizing: border-box; /* border나 padding 사용 시 박스 사이즈 변화 없음 */
     color: #555;
@@ -50,7 +49,7 @@ header{
 }
 .head > .bg > a > span{
     width: 80%; height: 2px;
-    background-color: #fff;
+    background-color: #000;
     position: absolute;
     transition: 0.4s;
     
@@ -69,14 +68,17 @@ header{
 .head > h2 > a{
     font-size: 2rem;
     font-weight: normal;
-    color: #fff;
+    color: #000;
     text-transform: uppercase;
 }
 /* search cart  */
 .head > .icon{
-    width: 12vh;
+    width: 7vw;
     display: flex;
     justify-content: space-between;
+    border-radius: 3vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 1%;
 }
 .head > .icon > a{
     margin-right: 20px;
@@ -114,7 +116,7 @@ header{
     display: none;
 }
 .head > .bg > .category > h2{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: normal;
     text-transform: capitalize;
     color: #000;
@@ -122,11 +124,11 @@ header{
     padding-left: 30px;
 }
 .head > .bg > .category > h3{
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: normal;
     padding-left: 30px;
     text-transform: capitalize;
-    color: rgb(48, 47, 47);
+    color: rgb(80, 80, 80);
     padding-bottom: 40px;
     border-bottom: 2px solid rgba(83, 83, 83, 0.712);
 }
@@ -138,7 +140,7 @@ header{
     padding-left: 30px;
 }
 .head > .bg > .category > nav > a{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: normal;
     text-transform: capitalize;
     margin: 20px 0;
@@ -151,11 +153,11 @@ header{
     transition: 0.7s;
 }
 .head > .bg > .category > figcaption{
-    width: 100%; height: 0;
+    width: 100%; height: 10vh;
     margin: 100px 0;
     opacity: 0.7;
 }
-.head > .bg > .category > figcaption > img{width: 100%;}
+.head > .bg > .category > figcaption > img{width: 100%; object-fit: cover;}
 /* category  */
 
 /* header hover  */
@@ -247,9 +249,9 @@ footer > .foot > li > p{
     }
     .head > .bg > .category > h2{display: none;}
     .head > .bg > .category > h3{
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
-    .head > .bg > .category > nav > a{font-size: 2rem;}
+    .head > .bg > .category > nav > a{font-size: 1.3rem;}
     footer{
         width: 100%;
         border-top: 0.1rem solid rgb(205, 205, 205);
@@ -325,12 +327,12 @@ footer > .foot > li > p{
         width: 70%;
         background-color: rgba(194, 194, 194, 0.897);
     }
-    .head > .bg > .category > h2{display: none;}
+    .head > .bg > .category > h2{}
     .head > .bg > .category > h3{
         margin-top: 10%;
-        font-size: 1.3rem;
+        font-size: 0.5rem;
     }
-    .head > .bg > .category > nav > a{font-size: 1.5rem;}
+    .head > .bg > .category > nav > a{font-size: 1.2rem;}
     .head > .bg > .category > figcaption{display: none;}
 
     footer{

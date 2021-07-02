@@ -4,25 +4,24 @@
 /* main  *//* main  *//* main  *//* main  *//* main  *//* main  */
 
 /* main1  */
-.main1{
-    background: url('../img/background/main_img.jpg') no-repeat ;
-    background-size: cover;
-    height: 100vh;
+
+.bg{
     position: relative;
+    overflow: hidden;
 }
 .main1 > .text{
     width: 60vw;
     margin: 0 auto;
     text-align: center;
     position: absolute;
-    left: calc(50% - 32%); top: 58%;
+    left: calc(50% - 32%); top: 52%;
     overflow: hidden;
 }
 .main1 > .text > h2{
     font-size: 3rem;
     text-transform: uppercase;
-    color: #fff;
-    margin-bottom: 38px;
+    color: #000;
+    margin-bottom: 18%;
     animation: logo 2s forwards;
 }
 @keyframes logo{
@@ -30,18 +29,13 @@
     50%{transform: translateY(100%) scale(1.2); opacity: 0.5; }
     100%{transform: translateY(0) ;}
 }
-.main1 > .text > p{
-    color: #fff;
-    font-size: 1.5rem;
-    margin-bottom: 56px;
-    font-weight: normal;
-}
+
 .main1 > .text > a{
     display: inline-block;
-    border: 2px solid #fff;
+    border: 2px solid #000;
     font-size: 1.5rem;
     font-weight: normal;
-    color: #fff;
+    color: #000;
     padding: 7px 25px;
     text-transform: uppercase;
     margin-bottom: 70px;
@@ -53,6 +47,7 @@
     text-align: center;
     color: #fff;
     font-weight: normal;
+    font-size: 0.7rem;
 }
 .main1 > .text > div > img{ 
     animation: s1 0.35s infinite alternate;
@@ -64,7 +59,7 @@
 /* main1  */
 /* main1 hover */
 .main1 > .text > a:hover{
-    background-color: rgba(192, 192, 192, 0.63);
+    background-color: rgba(63, 63, 63, 0.568);
 }
 /* main1 hover */
 /* main2 */
@@ -178,7 +173,8 @@
 /* main2 hover  */
 /* main3 */
 .main3{
-    background-color: #e8e7d2;
+    /* background-color: #e8e7d2; */
+    background-color: rgb(39, 39, 39);
     position: relative;
 }
 .main3 > .wkf{
@@ -188,7 +184,7 @@
     position: absolute;
     right: 20%; top: 0;
     z-index: 995;
-    height: 1900px;
+    height: 1700px;
 }
 .main3 > .wkf > nav{
     position: sticky;
@@ -197,10 +193,11 @@
 }
 .main3 > .wkf > nav > a{
     text-transform: capitalize;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-left: 20px;
     padding-bottom: 5px;
     transition: 0.2s;
+    color: #fff;
 }
 
 /* main3 img  */
@@ -232,14 +229,16 @@
 .main3 > .img3 > p > span{
     display: inline-block;
     transform: rotate(-90deg);
+    color: #fff;
+    font-size: 0.7rem;
 }
 .main3 > .img3 > p:nth-child(1) > span{
     position: absolute;
-    right: -21%; top: 25%;
+    right: -20%; top: 25%;
 }
 .main3 > .img3 > p:nth-child(2) > span{
     position: absolute;
-    right: -38%; bottom: 25%;
+    right: -36%; bottom: 25%;
 }
 /* main3  */
 /* main3 hover  */
@@ -264,7 +263,7 @@
     letter-spacing: 3vw;
     margin: 30px 0;
     white-space: nowrap;
-    
+    color: #fff;
 }
 .main3 > .main3-1 > figure > figcaption{
     width: 694px;
@@ -278,19 +277,23 @@
     width: 300px;
     position: absolute;
     right: -23%; top: 25%;
+    font-size: 0.7rem;
+    color: #fff;
 }
 .main3 > .main3-1 > figure > figcaption > p{
     white-space: pre-line;
-    font-size: 1.5rem;
+    font-size: 0.8rem;
     font-weight: normal;
+    color: #fff;
 }
 .main3 > .main3-1 > figure > figcaption > h3{
     margin: 20px 0;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    color: #fff;
 }
 .main3 > .main3-1 > figure > figcaption > a{
     display: inline-block;
-    border: 2px solid rgb(97, 97, 97);
+    border: 2px solid rgb(219, 219, 219);
     border-width: 2px 0 2px;
     padding: 8px 0; margin: 50px 0 100px;
     width: 130px;
@@ -299,13 +302,12 @@
 .main3 > .main3-1 > figure > figcaption > a > span{
     font-weight: normal;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     padding-left: 5px;
-    color: #000;
+    color: #fff;
 }
 .main3 > .main3-1 > figure > figcaption > a:hover{
     background-color: rgb(189, 189, 189);
-    border-width: 2px;
 }
 /* main3-1 */
 /* main4  */
@@ -356,7 +358,6 @@
     justify-content: space-between;
     align-items: center;
     flex-shrink: 1;
-    
 }
 .main4 > .img4 > .left_img{
     display: flex;
@@ -367,11 +368,12 @@
 }
 .main4 > .img4 > .left_img > li{}
 .main4 > .img4 > .left_img > li:nth-of-type(1){
-    width: 100%;
+    width: 70%;
     position: relative;
+    margin-bottom: 1%;
 }
 .main4 > .img4 > .left_img > li:nth-of-type(2){
-    width: 20vw;
+    width: 17vw; height: 40vh;
     position: relative;
 }
 .main4 > .img4 > .left_img > li img{
@@ -382,6 +384,7 @@
 .main4 > .img4 > .right_img{
     width: 22vw; 
     position: relative;
+    margin-right: 10%;
 }
 .main4 > .img4 > .right_img > a > img{
     width: 100%; height: 100%;
@@ -479,7 +482,7 @@
 /* main4  */
 /* main5  */
 .main5{
-    background: url('../img/background/event_img.jpg') no-repeat;
+    background: url('../new_img/review1.jpg') no-repeat;
     background-size: cover; height: 80vh; width: 100%;
     margin: 5% 0;
     position: relative;
@@ -488,20 +491,21 @@
     width: 40%;
     margin: 0 auto;
     position: absolute;
-    left: calc(50% - 20%); top: 40%;
+    left: calc(50% - 20%); top: 28%;
     text-align: center;
 }
 .main5 > .event > h2{
     font-size: 4rem;
     text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: normal;
     color: #fff;
-    background-color: rgba(2, 2, 2, 0.479);
     text-align: center;
     margin-bottom: 10%;
     padding: 2% 0;
 }
 .main5 > .event > p{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     text-align: center;
     color: #fff;
     font-weight: normal;
@@ -509,13 +513,13 @@
 }
 .main5 > .event > a{
     display: inline-block;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: rgb(255, 255, 255);
     border: 2px solid #fff;
     font-weight: normal;
     text-align: center;
     margin: 0 auto;
-    padding: 1% 5%;
+    padding: 1% 3%;
     transition: 0.5s;
 }
 .main5 > .event > a:hover{
@@ -571,6 +575,7 @@
 /* responsive *//* responsive *//* responsive *//* responsive */
 @media(min-width:992px) and (max-width:1279px){
     .bt{display: none;}
+    .bg{height: 100vh;}
     .main1 > .text > div{display: none;}
     .main1 > .text{
         left: calc(50% - 32%); top: calc(50% - 10%);
@@ -620,7 +625,7 @@
         top: 15%;
     }
     .main3 > .wkf > nav > a{
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding: 1% 0;
         transition: 0.2s;
     }
@@ -651,8 +656,8 @@
     .main3 > .main3-1 > figure > figcaption > span{
         display: none;
     }
-    .main3 > .main3-1 > figure > figcaption > p{font-size: 1.3rem;}
-    .main3 > .main3-1 > figure > figcaption > h3{font-size: 1.8rem;}
+    .main3 > .main3-1 > figure > figcaption > p{font-size: 1rem;}
+    .main3 > .main3-1 > figure > figcaption > h3{font-size: 1.2rem;}
     .main3 > .main3-1 > figure > figcaption > a{
         border: 1px solid rgb(97, 97, 97);
         border-width: 1px 0 1px;
@@ -660,7 +665,7 @@
         width: 25%;
     }
     .main3 > .main3-1 > figure > figcaption > a > span{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         padding-left: 2%;
     }
     /* main3  */
@@ -694,6 +699,7 @@
     .main4 > .img4 > .right_img{
         width: 50%;
         height: 60vh;
+        margin-right: 0;
     }
     .main4 > .img4 > .left_img > li:nth-of-type(1)> a > span{font-size: 1rem;}
     .main4 > .img4 > .left_img > li:nth-of-type(2)> a > span{font-size: 1rem;}
@@ -740,10 +746,11 @@
     /* contact  */
 }
 @media(min-width:768px) and (max-width:991px){
+    .bg{height: 100vh;}
     .main1 > .text{
         left: calc(50% - 32%); top: calc(50% - 10%);
     }
-    .main1 > .text > a{margin-top: 20%;}
+    .main1 > .text > a{margin-top: 15%;}
     .bt{display: none;}
     .main1 > .text > div{display: none;}
     /* main2  */
@@ -866,6 +873,7 @@
     .main4 > .img4 > .right_img{
         width: 50%;
         height: 40vh;
+        margin-right: 0;
     }
     .main4 > .img4 > .left_img > li:nth-of-type(1)> a > span{font-size: 1rem;}
     .main4 > .img4 > .left_img > li:nth-of-type(2)> a > span{font-size: 1rem;}
@@ -915,22 +923,22 @@
 }
 @media(max-width:767px){
     .bt{display: none;}
+
+    .bg{height: 100vh;}
     .main1 > .text > div{display: none;}
     .main1 > .text{
         width: 70%;
         margin: 0 auto;
         text-align: center;
         position: absolute;
-        left: calc(50% - 35%); top: 20%;
+        left: calc(50% - 35%); top: 35%;
     }
     .main1 > .text > h2{
-        font-size: 1.7rem;
+        font-size: 1.5rem;
         margin-bottom: 70%;
     }
-    .main1 > .text > p{
-        font-size: 0.8rem;
-        line-height: 200%;
-        margin-bottom: 30%;
+    .main1 > .text > a{
+        font-size: 1rem;
     }
     /* main1  */
     /* main2  */
@@ -980,7 +988,7 @@
         top: 15%;
     }
     .main3 > .wkf > nav > a{
-        font-size: 1rem;
+        font-size: 0.8rem;
         padding: 1% 0;
         transition: 0.2s;
     }
@@ -1012,8 +1020,8 @@
     .main3 > .main3-1 > figure > figcaption > span{
         display: none;
     }
-    .main3 > .main3-1 > figure > figcaption > p{font-size: 0.8rem;}
-    .main3 > .main3-1 > figure > figcaption > h3{font-size: 1rem;}
+    .main3 > .main3-1 > figure > figcaption > p{font-size: 0.5rem;}
+    .main3 > .main3-1 > figure > figcaption > h3{font-size: 0.8rem;}
     .main3 > .main3-1 > figure > figcaption > a{
         border: 1px solid rgb(97, 97, 97);
         border-width: 1px 0 1px;
@@ -1021,7 +1029,7 @@
         width: 30%;
     }
     .main3 > .main3-1 > figure > figcaption > a > span{
-        font-size: 0.8rem;
+        font-size: 0.5rem;
         padding-left: 2%;
     }
     /* main3  */
@@ -1056,6 +1064,7 @@
     .main4 > .img4 > .right_img{
         width: 50%;
         height: 20vh;
+        margin-right: 0;
     }
     .main4 > .img4 > .left_img > li:nth-of-type(1)> a > span{font-size: 0.6rem;}
     .main4 > .img4 > .left_img > li:nth-of-type(2)> a > span{font-size: 0.6rem;}
@@ -1069,18 +1078,18 @@
         left: calc(50% - 45%); top: 20%;    
     }
     .main5 > .event > h2{
-        font-size: 2rem;
+        font-size: 1.5rem;
         background: none;
         padding: 1% 0;
     }
     .main5 > .event > p{
-        font-size: 1rem;
+        font-size: 0.8rem;
         padding-top: 18%;
         color: #fff;
         margin-bottom: 20%;
     }
     .main5 > .event > a{
-        font-size: 0.7rem;
+        font-size: 0.5rem;
         border: 1px solid #fff;
     }
     /* main5  */
