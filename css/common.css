@@ -211,7 +211,7 @@ footer > .foot{
 footer > .foot > li{}
 footer > .foot > li > h3{
     font-weight: normal;
-    font-size: 1.2rem;
+    font-size: 0.7rem;
     color: rgb(134, 134, 134);
 }
 footer > .foot > li > h3::after{
@@ -223,6 +223,7 @@ footer > .foot > li > h3::after{
 footer > .foot > li > p{
     font-weight: normal;
     color: rgb(134, 134, 134);
+    font-size: 0.7rem;
 }
 /* footer  */
 @media(min-width:992px) and (max-width:1279px){

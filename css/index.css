@@ -79,14 +79,16 @@
 
 .main2 > .diy > .left{}
 .main2 > .diy > .left > h3{
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: normal;
+    color: #000;
 }
 .main2 > .diy > .left > h2{
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-transform: capitalize;
     margin-top: 5%;
     font-weight: normal;
+    color: #000;
 }
 
 .main2 > .diy > .right{
@@ -535,7 +537,7 @@
 }
 .contact > h2{
     font-weight: normal;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     margin: 5% 0;
     color: #000;
@@ -556,15 +558,16 @@
 }
 .contact > ul > li img{width: 100%;}
 .contact > ul > li h2{
-    font-size: 2.1rem;
+    font-size: 1.5rem;
     font-weight: normal;
     color: #000;
     margin: 2% 0;
 }
 .contact > ul > li p{
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: normal;
     margin: 2% 0;
+    padding-bottom: 2%;
 }
 .contact > ul > li:hover{
     border: 2px solid #000;
