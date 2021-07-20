@@ -8,20 +8,24 @@ $(".slider").slick({
     autoplaySpeed:2000
   });
 
-const elBg = document.querySelector('#bugger');
-elBg.addEventListener('click',function(){
-    elBg.classList.toggle('active');
-});
-const elSearch = document.querySelector('.head .icon a:nth-of-type(1)');
-elSearch.addEventListener('click',function(){
-    elSearch.classList.toggle('active');
-});
+
+
+function head(){
+    const elBg = document.querySelector('#bugger');
+    const elSearch = document.querySelector('.head .icon a:nth-of-type(1)');
+    elBg.addEventListener('click',function(){
+        elBg.classList.toggle('active');
+    });
+    elSearch.addEventListener('click',function(){
+        elSearch.classList.toggle('active');
+    });
+};
 
 //img3 슬라이드시 올라오기
 const elImg3 = document.querySelector('.img3');
 window.addEventListener('scroll',function(){
     let elImg3Height = elImg3.getBoundingClientRect().top;
-    if(elImg3Height - window.innerHeight <= window.scrollY){
+    if(elImg3Height - window.innerHeight <= window.scrollY - 1000){
         elImg3.classList.add('active');
     };
 });
