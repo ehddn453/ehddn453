@@ -1,0 +1,25 @@
+{
+    "work":[
+        {
+            "photo": ["./new_img/index_page/wood_img1.png", "./new_img/index_page/wood_img2.jpg","./new_img/index_page/wood_img3.jpg"],
+            "main_text": "w o o d",
+            "rotate_text": "welcom to wood items in vint deco",
+            "sub_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "mini_text": "wood"
+        },
+        {
+            "photo": ["./new_img/index_page/kitchen_img1.jpg","./new_img/index_page/kitchen_img2.jpg","./new_img/index_page/kitchen_img3.jpg"],
+            "main_text": "kitchen",
+            "rotate_text": "welcom to kitchen items in vint deco",
+            "sub_text": "The first story is about connecting the dots. I dropped out of Reed College after the first 6 months, but then stayed around as a drop-in for",
+            "mini_text": "kitchen"
+        },
+        {
+            "photo": ["./new_img/index_page/furniture_img1.jpg","./new_img/index_page/furniture_img2.jpg","./new_img/index_page/furniture_img3.jpg"],
+            "main_text": "furniture",
+            "rotate_text": "welcom to furniture items in vint deco",
+            "sub_text": "This is the text of the Commencement address by Steve Jobs, CEO of Apple Computer and of Pixar Animation Studios, delivered on June 12, 2005.",
+            "mini_text": "furniture"
+        }      
+    ]
+}
