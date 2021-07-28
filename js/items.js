@@ -51,7 +51,8 @@ function callback(data){
                   elOrderH2 = document.querySelector('.order_text h2'),
                   elOrderUl = document.querySelector('.order_text ul'),
                   elOrderP = document.querySelector('.order_text p'),
-                  elInputText = document.querySelector('.order_items ul');
+                  elInputText = document.querySelector('.order_items ul'),
+                  elOrderSum = document.querySelector('.order_sum .order_all .sum');
                 
                 //변수에 담기
                 img1 = data.furniture[i].photo[0];
@@ -87,6 +88,18 @@ function callback(data){
                                         </li>`;
                 elOrderP.innerHTML = text;
                 elInputText.innerHTML = `<li>${title}<span>1개</span></li>`
+                let priceNum = parseInt(price) * 1000;
+                let priceAll = priceNum + 2500;
+                elOrderSum.innerHTML = `<ul>
+                                            <li>
+                                                총 수량 1 개 <span>${price} 원</span>
+                                            </li>
+                                            <li>
+                                                배송비 <span>2,500 원</span>
+                                            </li>
+                                        </ul>
+                                        <h2>총 구매 금액 <span>${priceAll} 원</span></h2>`
+                                        
 
             const elSubLi = document.querySelectorAll('.order_img ul li');
             for(let i=0; i<elSubLi.length; i++){

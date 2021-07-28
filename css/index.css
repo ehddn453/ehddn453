@@ -589,6 +589,178 @@
 
 
 /* responsive *//* responsive *//* responsive *//* responsive */
+@media(min-width:1280px) and (max-width:1820px){
+    .bt{display: none;}
+    .bg{height: 100vh;}
+    .main1 > .text > div{display: none;}
+    .main1 > .text{
+        left: calc(50% - 32%); top: calc(50% - 10%);
+    }
+    .main1 > .text > a{margin-top: 20%;}
+    .bt{display: none;}
+    .main1 > .text > div{display: none;}
+    /* main2  */
+    .main2 > .diy{width: 90%;}
+    .main2 > .diy > .left > h3{font-size: 1.2rem;}
+    .main2 > .diy > .left > h2{margin-bottom: 5%;}
+    .main2 > .diy > .right{display: none;}
+    .main2 > .img{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main2 > .img > p{
+        width: 22vw; 
+        margin:0 auto;
+        box-shadow: 10px 10px 20px rgb(112, 112, 112);
+    }
+    .main2 > .img > p:nth-of-type(4){display: none;}
+    .main2 > nav{
+        margin: 15% auto;
+        width: 90%; height: 0.9vh;
+        border: 0.5px solid #000;
+        position: relative;
+    }
+    .main2 > nav > span{
+        position: absolute;
+        top: 0;
+        width: 50%; height: 0.7vh;
+    }
+    /* main2  */
+    /* main3  */
+    .main3 > .wkf{
+        right: 5%; top: 0; 
+        height: 1500px; width: 80%;
+    }
+    .main3 > .wkf > nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding-top: 15%;
+        top: 15%;
+    }
+    .main3 > .wkf > nav > a{
+        font-size: 1.5rem;
+        padding: 1% 0;
+        transition: 0.2s;
+    }
+    .main3 > .img3{
+        width: 100%; 
+        margin: 0 auto;
+        align-items: center;
+    }
+    .main3 > .img3 > p:nth-child(1){
+        width: 60%; 
+        margin-top: 10%;
+    }
+    .main3 > .img3 > p:nth-child(2){display: none;}
+    .main3 > .img3 > p > span{display: none; }
+    .main3 > .main3-1{
+        width: 80%;
+        margin: 20px auto;
+    }
+    .main3 > .main3-1 > figure > h1{
+        font-size: 5rem;
+        margin: 30px 0;
+        letter-spacing: 2vw;
+    }
+    .main3 > .main3-1 > figure > figcaption{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .main3 > .main3-1 > figure > figcaption > span{
+        display: none;
+    }
+    .main3 > .main3-1 > figure > figcaption > p{font-size: 1rem;}
+    .main3 > .main3-1 > figure > figcaption > h3{font-size: 1.2rem;}
+    .main3 > .main3-1 > figure > figcaption > a{
+        border: 1px solid rgb(97, 97, 97);
+        border-width: 1px 0 1px;
+        margin: 5% 0 10%;
+        width: 25%;
+    }
+    .main3 > .main3-1 > figure > figcaption > a > span{
+        font-size: 1.2rem;
+        padding-left: 2%;
+    }
+    /* main3  */
+    /* main4  */
+    .main4{width: 90%; margin-bottom: 20%;}
+    .main4 > .sale{
+        display: block;
+    }
+    .main4 > .sale > h2{
+        font-size: 2rem;
+        margin: 10% 0;
+    }
+    .main4 > .sale > h2 > span{font-size: 2.5rem;}
+    .main4 > .sale > .con{display: none;}
+
+    .main4 > .img4{
+        width: 100%;
+    }
+    .main4 > .img4 > .left_img{
+        margin-right: 0.5%;
+        width: 50%;
+    }
+    .main4 > .img4 > .left_img > li{}
+    .main4 > .img4 > .left_img > li:nth-of-type(1){
+        height: 30vh;
+    }
+    .main4 > .img4 > .left_img > li:nth-of-type(2){
+        width: 100%;
+        height: 30vh;
+    }
+    .main4 > .img4 > .right_img{
+        width: 50%;
+        height: 60vh;
+        margin-right: 0;
+    }
+    .main4 > .img4 > .left_img > li:nth-of-type(1)> a > span{font-size: 1rem;}
+    .main4 > .img4 > .left_img > li:nth-of-type(2)> a > span{font-size: 1rem;}
+    .main4 > .img4 > .right_img > a > span{font-size: 1rem;}
+
+    /* main4  */
+    .main5 > .event{
+        width: 90%;
+        left: calc(50% - 45%); top: 20%;    
+    }
+    .main5 > .event > h2{
+        font-size: 3rem;
+        background: none;
+        padding: 1% 0;
+    }
+    .main5 > .event > p{
+        font-size: 1.5rem;
+        padding-top: 5%;
+        color: #fff;
+        margin-bottom: 15%;
+    }
+    .main5 > .event > a{
+        font-size: 1.2rem;
+        border: 1px solid #fff;
+    }
+    /* main5 */
+    /* contact  */
+    .contact{
+        width: 80%;
+        margin: 10% auto;
+    }
+    .contact > h2{font-size: 1.5rem;}
+    .contact > ul{width: 90%;}
+    .contact > ul > li{
+        width: 60%;
+        margin: 0 3%;
+    }
+    .contact > ul > li h2{font-size: 1.5rem;}
+    .contact > ul > li p{
+        font-size: 1rem;
+        margin: 3% 0;
+    }
+
+    /* contact  */
+}
 @media(min-width:992px) and (max-width:1279px){
     .bt{display: none;}
     .bg{height: 100vh;}
@@ -940,7 +1112,10 @@
 @media(max-width:767px){
     .bt{display: none;}
 
-    .bg{height: 100vh;}
+    .bg{
+        height: 100vh;
+        
+    }
     .main1 > .text > div{display: none;}
     .main1 > .text{
         width: 70%;

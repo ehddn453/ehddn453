@@ -216,14 +216,19 @@
 
 
 @media(min-width:992px) and (max-width:1297px){
-    main{width: 90%;}
+    .orderAll{width: 100%;}
+    .orderPage{
+        width: 90%;
+        left: calc(50% - 45%); top: 0;
+    }
+    
     /* under  */
     .order_under{
         display: block;
         width: 100%;
     }
     .order_under > .order_items{width: 100%; height: 15vh;}
-    .order_under > .order_input{width: 100%; margin-top: 5%;}
+    .order_under > .order_input{display: none;}
     .order_under > .order_input > ul{display: block;}
     .order_under > .order_input > ul > li > input{width: 100%;} 
     .order_under > .order_input > ul > li:nth-of-type(3) > input{
@@ -234,7 +239,11 @@
     
 }
 @media(min-width:768px) and (max-width:991px){
-    main{width: 90%;}
+    .orderAll{width: 100%;}
+    .orderPage{
+        width: 90%;
+        left: calc(50% - 45%); top: 0;
+    }
     .order{display: block;}
     .order > .order_img{
         width: 100%;
@@ -259,7 +268,7 @@
          font-size: 1rem;
      }
      .order > .order_text > ul > li > label{font-size: 0.7rem;}
-     .order > .order_text > p{font-size: 0.7rem;}
+     .order > .order_text > p{display: none;}
      .order > .order_text > a{float: none;}
      /* text  */
      /* under  */
@@ -276,9 +285,7 @@
     .order_under > .order_items > ul > li{font-size: 0.8rem;}
     .order_under > .order_items > ul > li > span{font-size: 0.8rem;}
     .order_under > .order_input{
-        width: 100%;
-        margin: 0 auto;
-        padding: 3% 5%;
+        display: none;
     }
     .order_under > .order_input > legend{font-size: 0.8rem;}
     .order_under > .order_input > ul{display: block;}
@@ -308,7 +315,11 @@
     /* sum  */
 }
 @media(max-width:767px){
-    main{width: 90%;}
+    .orderAll{width: 100%;}
+    .orderPage{
+        width: 90%;
+        left: calc(50% - 45%); top: 0;
+    }
     .order{display: block;}
     .order > .order_img{
         width: 100%;
@@ -333,7 +344,7 @@
         font-size: 0.8rem;
     }
     .order > .order_text > ul > li > label{font-size: 0.7rem;}
-    .order > .order_text > p{font-size: 0.7rem;}
+    .order > .order_text > p{display: none;}
     .order > .order_text > a{float: none;}
     /* text  */
     /* under  */
@@ -342,15 +353,14 @@
         width: 100%;
     }
     .order_under > .order_items{
-        width: 100%; 
+        width: 100%; height: 10vh;
         margin: 0 auto;
     }
     .order_under > .order_items > legend{font-size: 0.8rem;}
     .order_under > .order_items > ul > li{font-size: 0.8rem;}
     .order_under > .order_items > ul > li > span{font-size: 0.8rem;}
     .order_under > .order_input{
-        width: 100%;
-        margin: 0 auto;
+        display: none;
     }
     .order_under > .order_input > legend{font-size: 0.8rem;}
     .order_under > .order_input > ul{display: block;}
@@ -361,9 +371,7 @@
     /* sum  */
     .order_sum{display: block;}
     .order_sum > p{
-        width: 100%;
-        font-size: 0.5rem;
-        text-align: left;
+        display: none;
     }
     .order_sum > .order_all{
         width: 100%;
