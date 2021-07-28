@@ -243,8 +243,8 @@
     .items2 > .men{
         width: 100%;
         margin: 0 auto;
-        padding: 2%;
-        text-align: center;
+        padding: 5%;
+        text-align: right;
         background-color: rgba(190, 190, 190, 0.726);
         top: 0;
     }
