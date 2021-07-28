@@ -5,7 +5,7 @@
 
 /* main1  */
 
-.bg{
+main > .bg{
     position: relative;
     overflow: hidden;
     height: 100vh;
@@ -591,7 +591,7 @@
 /* responsive *//* responsive *//* responsive *//* responsive */
 @media(min-width:1280px) and (max-width:1820px){
     .bt{display: none;}
-    .bg{height: 100vh;}
+    main > .bg{height: 100vh;}
     .main1 > .text > div{display: none;}
     .main1 > .text{
         left: calc(50% - 32%); top: calc(50% - 10%);
@@ -763,7 +763,7 @@
 }
 @media(min-width:992px) and (max-width:1279px){
     .bt{display: none;}
-    .bg{height: 100vh;}
+    main > .bg{height: 100vh;}
     .main1 > .text > div{display: none;}
     .main1 > .text{
         left: calc(50% - 32%); top: calc(50% - 10%);
@@ -934,7 +934,7 @@
     /* contact  */
 }
 @media(min-width:768px) and (max-width:991px){
-    .bg{height: 100vh;}
+    main > .bg{height: 100vh;}
     .main1 > .text{
         left: calc(50% - 32%); top: calc(50% - 10%);
     }
@@ -1112,9 +1112,9 @@
 @media(max-width:767px){
     .bt{display: none;}
 
-    .bg{
+    main > .bg{
         height: 100vh;
-        
+
     }
     .main1 > .text > div{display: none;}
     .main1 > .text{
@@ -1133,6 +1133,7 @@
     }
     /* main1  */
     /* main2  */
+    .main2{display: none;}
     .main2 > .diy{
         width: 90vw;
         display: block;
@@ -1225,7 +1226,7 @@
     }
     /* main3  */
     /* main4  */
-    .main4{width: 90%; margin-bottom: 20%;}
+    .main4{width: 90%; height: 40vh; margin-bottom: 20%;}
     .main4 > .sale{
         display: block;
     }
@@ -1238,7 +1239,8 @@
 
     .main4 > .img4{
         width: 100%;
-        
+        opacity: 1;
+        transform: translateY(0);
     }
     .main4 > .img4 > .left_img{
         margin-right: 0.5%;
