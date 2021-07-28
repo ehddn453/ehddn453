@@ -25,6 +25,7 @@
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
     <script src="js/common.js"></script>
     <script defer src="js/items.js"></script>
+    <script src="./js/json/data.js"></script>
 </head>
 <body>
     <header></header>
@@ -296,7 +297,7 @@
                     </li>
                     <li>
                         <a>
-                            <img src="new_img/wood/8.jpg" alt="1">
+                            <img src="new_img/wood/wood_chair6.png" alt="1">
                             <span>Tub</span>
                             <article>
                                 <h3>Tub</h3>
@@ -470,16 +471,18 @@
                         <h2>(m) diy 콘솔 뷔페장</h2>
                         <ul>
                             <li>
-                                <label>판매가</label>
+                                <label>Price</label>
                                 20,000 원
                             </li>
                             <li>
-                                <label>수량</label>
+                                <label>Amount</label>
                                 <input type="number"
-                                        placeholder="1">
+                                        placeholder="1"
+                                        min="1" max="10"
+                                        >
                             </li>
                             <li>
-                                <label>합계</label>
+                                <label>Total</label>
                                 20,000 원
                             </li>
                         </ul>

@@ -5,7 +5,6 @@ function letsGo(){
     .then( data => callback(data) );
 
     function callback(data){
-        console.log(data);
         let photo1,photo2,photo3,
             mainText,rotateText,subText,miniText,
             pTag1='',pTag2='',fig='';
@@ -61,6 +60,61 @@ function letsGo(){
                     dtMain3_1.classList.add('active')
                 },100);
 
+            });
+        };
+
+        //main page sale//
+        let photo1s,photo2s,photo3s;
+        const elSaleBtn = document.querySelectorAll('.sale .con a'),
+              elSaleUl = document.querySelector('.img4 .left_img'),
+              elSaleDiv = document.querySelector('.img4 .right_img');
+        for(let i=0; i<elSaleBtn.length; i++){
+            elSaleBtn[i].addEventListener('click',function(){
+                data.sale.forEach(function(){
+                    photo1s = data.sale[i].photo[0];
+                    photo2s = data.sale[i].photo[1];
+                    photo3s = data.sale[i].photo[2];
+                });
+                elSaleUl.innerHTML = `<li>
+                                        <a href="items.html#m">
+                                            <img src="${photo1s}" alt="sale1">
+                                            <span>shelf</span>
+                                            <article>
+                                                <h2>Shelf</h2>
+                                                <p>
+                                                    사이즈 : 45mm*58mm*95mm
+                                                    재질 :
+                                                    가격 : 35,000 원
+                                                </p>
+                                            </article>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="items.html#s">
+                                            <img src="${photo3s}" alt="sale3">
+                                            <span>box</span>
+                                            <article>
+                                                <h2>Vintage Box</h2>
+                                                <p>
+                                                    사이즈 : 45mm*58mm*95mm
+                                                    재질 :
+                                                    가격 : 15,000 원
+                                                </p>
+                                            </article>
+                                        </a>
+                                    </li>`
+                elSaleDiv.innerHTML = `<a href="items.html#l">
+                                            <img src="${photo2s}" alt="sale2">
+                                            <span>table</span>
+                                            <article>
+                                                <h2>Table</h2>
+                                                <p>
+                                                    사이즈 : 45mm*58mm*95mm
+                                                    재질 :
+                                                    가격 : 25,000 원
+                                                </p>
+                                            </article>
+                                        </a>`                 
             });
         };
     };

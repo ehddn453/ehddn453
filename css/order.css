@@ -40,11 +40,11 @@
     width: 50%;
 }
 .order > .order_img > .full_img{
-    width: 70%;
+    width: 60%; height: 30vh;
     border: 1px solid rgb(133, 133, 133);
-    
+    overflow: hidden;
 }
-.order > .order_img > .full_img > img{width: 100%; object-fit: fill;}
+.order > .order_img > .full_img > img{width: 100%; height: 100%; object-fit: fill;}
 .order > .order_img > ul{
     display: flex;
     justify-content: flex-start;
@@ -56,6 +56,7 @@
     width: 12%; height: 4vh;
     margin-right: 3%;
     border: 1px solid rgb(133, 133, 133);
+    cursor: pointer;
 }
 .order > .order_img > ul > li > img{width: 100%; height: 100%; object-fit: fill;}
 
@@ -93,6 +94,7 @@
     line-height: 200%;
     overflow-y: scroll;
     height: 20vh;
+    width: 100%;
 }
 .order > .order_text > a{
     display: inline-block;

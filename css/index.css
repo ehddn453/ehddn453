@@ -1,6 +1,6 @@
 
 
-
+/* html{overflow: hidden;} */
 /* main  *//* main  *//* main  *//* main  *//* main  *//* main  */
 
 /* main1  */
@@ -150,24 +150,9 @@
 .main2 > nav > span:nth-child(2){
     right: 0; background-color: #fff;
 } */
-.bt{
-    position: sticky;
-    bottom: 10%; 
-    margin-left: 3%;
-    
-}
-.bt > a{
-    display: block;
-    width: 30px; height: 25px;
-    border: 1px solid rgb(158, 158, 158);   
-    transition: 0.5s;
-}
-.bt > a > img{width: 100%; object-fit: cover;}
+
 /* main2 */
-/* main2 hover  */
-.bt > a:nth-of-type(1):hover{background-color: rgb(108, 113, 119);}
-.bt > a:nth-of-type(2):hover{background-color: rgb(108, 113, 119);}
-/* main2 hover  */
+
 /* main3 */
 .main3{
     /* background-color: #e8e7d2; */
@@ -322,7 +307,7 @@
 }
 /* main3-1 */
 /* main4  */
-.main4{width: 60%; margin: 0 auto;}
+.main4{width: 60%; height: 90vh; margin: 0 auto;}
 .main4 > .sale{
     display: flex;
     justify-content: space-between;
@@ -353,6 +338,7 @@
     width: 100%; height: 100%;
     border: 2px solid rgb(117, 117, 117);
     transition: 0.5s;
+    cursor: pointer;
 }
 .main4 > .sale > .con > a:nth-of-type(1){
     background: url('../img/icon/left_click\(black\).png') no-repeat center;
@@ -369,6 +355,13 @@
     justify-content: space-between;
     align-items: center;
     flex-shrink: 1;
+    transition: 3s;
+    transform: translateY(200px);
+    opacity: 0;
+}
+.main4 > .img4.active{
+    transform: translateY(0);
+    opacity: 1;
 }
 .main4 > .img4 > .left_img{
     display: flex;
@@ -379,7 +372,7 @@
 }
 .main4 > .img4 > .left_img > li{}
 .main4 > .img4 > .left_img > li:nth-of-type(1){
-    width: 70%;
+    width: 32vw; height: 40vh;
     position: relative;
     margin-bottom: 1%;
 }
@@ -393,7 +386,7 @@
 }
 
 .main4 > .img4 > .right_img{
-    width: 22vw; 
+    width: 22vw;
     position: relative;
     margin-right: 10%;
 }
@@ -583,6 +576,17 @@
 }
 
 /* contact */
+
+/*top*/
+.bt{
+    width: 6%;
+    position: fixed;
+    right: 2%; top: 85%;
+    opacity: 0;
+}
+.bt.active{opacity: 1;}
+.bt> a > img{width:100%;}
+
 
 /* responsive *//* responsive *//* responsive *//* responsive */
 @media(min-width:992px) and (max-width:1279px){

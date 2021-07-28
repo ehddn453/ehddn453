@@ -37,3 +37,21 @@ window.addEventListener('scroll',function(){
         elImg3_1.classList.add('active');
     };
 });
+
+const elSaleImg4 = document.querySelector('.img4');
+window.addEventListener('scroll',function(){
+    let elSaleImg4Height = elSaleImg4.getBoundingClientRect().top;
+    if(elSaleImg4Height - window.innerHeight <= window.scrollY - 2200){
+        elSaleImg4.classList.add('active');
+    }
+});
+
+//TOP 만들기
+const elTop = document.querySelector('.bt');
+window.addEventListener('scroll',function(){
+    if(window.innerHeight < window.scrollY + 500){
+        elTop.classList.add('active');
+    }else{
+        elTop.classList.remove('active');
+    };
+});

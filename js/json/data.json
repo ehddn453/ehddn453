@@ -21,5 +21,161 @@
             "sub_text": "This is the text of the Commencement address by Steve Jobs, CEO of Apple Computer and of Pixar Animation Studios, delivered on June 12, 2005.",
             "mini_text": "furniture"
         }      
+    ],
+
+    "furniture":[
+        {
+            "photo":["./new_img/furniture/furniture_Used USM_01.jpg","./new_img/furniture/furniture_Used USM_01.png","./new_img/furniture/furniture_Used USM_01_1.png","./new_img/furniture/furniture_Used USM_01_2.png"],
+            "title":"Used USM",
+            "price":"65,000",
+            "sub_text":"1965년 스위스 엔지니어 파울 셰러와<br> 건축가 프리츠 할러의 합작으로 탄생한 세계 최초 모듈러 퍼니처,<br> USM haller가 USED로 입고되었습니다.<br>서랍장, 장식장 ,사이드 보드 등 다양한 용도로 사용가능합니다"
+        },
+        {
+            "photo":["./new_img/furniture/furniture_Glass Table Chrome_02.jpg","./new_img/furniture/furniture_Glass Table Chrome_02.jpg","./new_img/furniture/furniture_Glass Table Chrome_02_1.png","./new_img/furniture/furniture_Glass Table Chrome_02_2.png"],
+            "title":"Glass Table Chrome",
+            "price":"70,000",
+            "sub_text":"1965년 스위스 엔지니어 파울 셰러와<br> 건축가 프리츠 할러의 합작으로 탄생한 세계 최초 모듈러 퍼니처,<br> USM haller가 USED로 입고되었습니다.<br>서랍장, 장식장 ,사이드 보드 등 다양한 용도로 사용가능합니다"
+        },
+        {
+            "photo":["./new_img/furniture/furniture_Bauhaus side Table_03.jpg","./new_img/furniture/furniture_Bauhaus side Table_03.jpg","./new_img/furniture/furniture_Bauhaus side Table_03_1.png","./new_img/furniture/furniture_Bauhaus side Table_03_2.png"],
+            "title":"Bauhaus side Table",
+            "price":"60,000",
+            "sub_text":"1965년 스위스 엔지니어 파울 셰러와<br> 건축가 프리츠 할러의 합작으로 탄생한 세계 최초 모듈러 퍼니처,<br> USM haller가 USED로 입고되었습니다.<br>서랍장, 장식장 ,사이드 보드 등 다양한 용도로 사용가능합니다"
+        },
+        {
+            "photo":["./new_img/furniture/furniture_Layers Table set_04.jpg","./new_img/furniture/furniture_Layers Table set_04.jpg","./new_img/furniture/furniture_Layers Table set_04_1.png","./new_img/furniture/furniture_Layers Table set_04_2.png"],
+            "title":"Layer Table set",
+            "price":"120,000",
+            "sub_text":"1965년 스위스 엔지니어 파울 셰러와<br> 건축가 프리츠 할러의 합작으로 탄생한 세계 최초 모듈러 퍼니처,<br> USM haller가 USED로 입고되었습니다. <br>서랍장, 장식장 ,사이드 보드 등 다양한 용도로 사용가능합니다"
+        },
+        {
+            "photo":["./new_img/furniture/furniture_German Vintage stand_05.jpg","./new_img/furniture/furniture_German Vintage stand_05.jpg","./new_img/furniture/furniture_German Vintage stand_05_1.png","./new_img/furniture/furniture_German Vintage stand_05_2.png"],
+            "title":"German Vitage stand",
+            "price":"50,000",
+            "sub_text":"70년대 독일 빈티지 코트 행어입니다."
+        },
+        {
+            "photo":["./new_img/furniture/furniture_Thonet Flower stand_06.jpg","./new_img/furniture/furniture_Thonet Flower stand_06.jpg","./new_img/furniture/furniture_Thonet Flower stand_06_1.png","./new_img/furniture/furniture_Thonet Flower stand_06_2.png"],
+            "title":"Thonet Flower stand",
+            "price":"70,000",
+            "sub_text":"1965년 스위스 엔지니어 파울 셰러와<br> 건축가 프리츠 할러의 합작으로 탄생한 세계 최초 모듈러 퍼니처,<br> USM haller가 USED로 입고되었습니다.<br>서랍장, 장식장 ,사이드 보드 등 다양한 용도로 사용가능합니다"
+        },
+        {
+            "photo":["./new_img/furniture/furniture_Glass Coffee Table_07.jpg","./new_img/furniture/furniture_Glass Coffee Table_07.jpg","./new_img/furniture/furniture_Glass Coffee Table_07_1.png","./new_img/furniture/furniture_Glass Coffee Table_07_2.png"],
+            "title":"Glass Coffee Table",
+            "price":"70,000",
+            "sub_text":"70년대 독일 빈티지 테이블입니다."
+        },
+        {
+            "photo":["./new_img/furniture/furniture_3 Stage Table_08.jpg","./new_img/furniture/furniture_3 Stage Table_08.jpg","./new_img/furniture/furniture_3 Stage Table_08_1.png","./new_img/furniture/furniture_3 Stage Table_08_2.png"],
+            "title":"3 Stage Table",
+            "price":"80,000",
+            "sub_text":"material : metal chromium-plated steel"
+        },
+        {
+            "photo":["./new_img/wood/wood_chair1.jpg","./new_img/wood/wood_chair1.jpg","./new_img/wood/wood_chair1_1.png","./new_img/wood/wood_chair1_2.png"],
+            "title":"Lawson",
+            "price":"35,000",
+            "sub_text":"더 나은 디자인이 더 나은 사회를<br> 만드는 데 도움이 된다는 믿음에서 기능적인 생활공간을<br> 만드는 것을 목표로 하였던 프랑스의 건축가 겸 디자이너<br> 샬롯 페리앙의 짚으로 엮어 디자인한 스툴입니다. <br>의자의 역할로 무게를 감당하기에는 무리가 있어,<br> 오브제의 역할로 사용하시는 것을 추천드립니다!"
+        },
+        {
+            "photo":["./new_img/wood/wood_chair2.jpg","./new_img/wood/wood_chair2.jpg","./new_img/wood/wood_chair2_1.png","./new_img/wood/wood_chair2_1.png"],
+            "title":"Wingback",
+            "price":"55,000",
+            "sub_text":"어린이를 위한 가구를 제작하는<br> 브랜드의 어린이용 의자입니다. School Concept는 실용적이고<br> 기능적인 디자인과 결합 된 아름다운 디자인을 추구하며<br> 아이를 위한 제품인 만큼 안전성을 자랑하는 브랜드 입니다."
+        },
+        {
+            "photo":["./new_img/wood/wood_chair3.jpg","./new_img/wood/wood_chair3.jpg","./new_img/wood/wood_chair3_1.png","./new_img/wood/wood_chair3_2.png"],
+            "title":"Slipper",
+            "price":"30,000",
+            "sub_text":"더 나은 디자인이 더 나은 사회를<br> 만드는 데 도움이 된다는 믿음에서 기능적인 생활공간을<br> 만드는 것을 목표로 하였던 프랑스의 건축가 겸 디자이너 샬롯 페리앙의<br> 짚으로 엮어 디자인한 스툴입니다.<br> 의자의 역할로 무게를 감당하기에는 무리가 있어,<br> 오브제의 역할로 사용하시는 것을 추천드립니다!"
+        },
+        {
+            "photo":["./new_img/wood/wood_chair4.jpg","./new_img/wood/wood_chair4.jpg","./new_img/wood/wood_chair4_1.png","./new_img/wood/wood_chair4_1.png"],
+            "title":"Bergere",
+            "price":"20,000",
+            "sub_text":"size : w62x75 h59 <br>age : 50s <br>designer : Jean Prouvé <br>manufacturer : Ateliers Jean Prouvé"
+        },
+        {
+            "photo":["./new_img/wood/wood_chair5.jpg","./new_img/wood/wood_chair5.jpg","./new_img/wood/wood_chair5_1.png","./new_img/wood/wood_chair5_2.png"],
+            "title":"Mordern Wingback",
+            "price":"40,000",
+            "sub_text":"어린이를 위한 가구를 제작하는<br> 브랜드의 어린이용 의자입니다.<br> School Concept는 실용적이고<br> 기능적인 디자인과 결합 된 아름다운 디자인을 추구하며<br> 아이를 위한 제품인 만큼 안전성을 자랑하는 브랜드 입니다."
+        },
+        {
+            "photo":["./new_img/wood/wood_table1.jpg","./new_img/wood/wood_table1.jpg","./new_img/wood/wood_table1_1.png","./new_img/wood/wood_table1_2.png"],
+            "title":"Club",
+            "price":"35,000",
+            "sub_text":"브라운컬러의 플라스틱 소재 커피 테이블입니다.<br> 바퀴로 되어있어 이동이 매우 쉬우며,<br> 상판 패널을 안쪽으로 접거나 펼쳐<br> 테이블의 용도 또는 와인 등을 수납할 수 있습니다."
+        },
+        {
+            "photo":["./new_img/wood/wood_table2.jpg","./new_img/wood/wood_table2.jpg","./new_img/wood/wood_table2_1.png","./new_img/wood/wood_table2_2.png"],
+            "title":"Occasional",
+            "price":"35,000",
+            "sub_text":"브라운컬러의 플라스틱 소재 커피 테이블입니다.<br> 바퀴로 되어있어 이동이 매우 쉬우며,<br> 상판 패널을 안쪽으로 접거나 펼쳐<br> 테이블의 용도 또는 와인 등을 수납할 수 있습니다."
+        },
+        {
+            "photo":["./new_img/wood/wood_chair6.png","./new_img/wood/wood_chair6.png","./new_img/wood/wood_chair6_1.png","./new_img/wood/wood_chair6_2.png"],
+            "title":"Tub",
+            "price":"15,000",
+            "sub_text":"브라운컬러의 플라스틱 소재 커피 테이블입니다<br>. 바퀴로 되어있어 이동이 매우 쉬우며,<br> 상판 패널을 안쪽으로 접거나 펼쳐<br> 테이블의 용도 또는 와인 등을 수납할 수 있습니다."
+        },
+        {
+            "photo":["./new_img/kitchen/kitchen_Crystal wine Glass_01.jpg","./new_img/kitchen/kitchen_Crystal wine Glass_01.jpg","./new_img/kitchen/kitchen_Crystal wine Glass_01_1.png","./new_img/kitchen/kitchen_Crystal wine Glass_01_2.png"],
+            "title":"Crystal wine Glass",
+            "price":"35,000",
+            "sub_text":"프랑스 테이블웨어 브랜드 루미냑의 와인글라스 입니다.<br> 세가지 사이즈로 준비되었어요"
+        },
+        {
+            "photo":["./new_img/kitchen/kitchen_Glass Trolley_02.png","./new_img/kitchen/kitchen_Glass Trolley_02.png","./new_img/kitchen/kitchen_Glass Trolley_02_1.png","./new_img/kitchen/kitchen_Glass Trolley_02_2.png"],
+            "title":"Class Trolley",
+            "price":"65,000",
+            "sub_text":"유리소재의 트롤리 입니다.<br> 핸들 부분은 우드로 되어있으며,<br> 서빙 트레이가 포함되어 매우 실용적 입니다. "
+        },
+        {
+            "photo":["./new_img/kitchen/kitchen_Whiskey Glass_03.jpg","./new_img/kitchen/kitchen_Whiskey Glass_03.jpg","./new_img/kitchen/kitchen_Whiskey Glass_03_1.png","./new_img/kitchen/kitchen_Whiskey Glass_03_2.png"],
+            "title":"Whiskey Glass",
+            "price":"25,000",
+            "sub_text":"군더더기없는 깔끔한 디자인의 Tea cup으로<br> 가볍고 사용하기에 유용한 제품입니다."
+        },
+        {
+            "photo":["./new_img/kitchen/kitchen_Temple wine glass_04.jpg","./new_img/kitchen/kitchen_Temple wine glass_04.jpg","./new_img/kitchen/kitchen_Temple wine glass_04_1.png","./new_img/kitchen/kitchen_Temple wine glass_04_2.png"],
+            "title":"Temple wine glass",
+            "price":"25,000",
+            "sub_text":"군더더기없는 깔끔한 디자인의 Tea cup으로<br> 가볍고 사용하기에 유용한 제품입니다."
+        },
+        {
+            "photo":["./new_img/kitchen/kitchen_Formano Crystal Glass_05.jpg","./new_img/kitchen/kitchen_Formano Crystal Glass_05.jpg","./new_img/kitchen/kitchen_Formano Crystal Glass_05_1.png","./new_img/kitchen/kitchen_Formano Crystal Glass_05_2.png"],
+            "title":"Formano Crystal Glass",
+            "price":"25,000",
+            "sub_text":"군더더기없는 깔끔한 디자인의 Tea cup으로<br> 가볍고 사용하기에 유용한 제품입니다."
+        },
+        {
+            "photo":["./new_img/kitchen/kitchen_Colored glass pousse_06.jpg","./new_img/kitchen/kitchen_Colored glass pousse_06.jpg","./new_img/kitchen/kitchen_Colored glass pousse_06_1.png","./new_img/kitchen/kitchen_Colored glass pousse_06_2.png"],
+            "title":"Colored glass pousse",
+            "price":"25,000",
+            "sub_text":"은은한 라이트 옐로우 컬러로 둥근 디자인의<br> 그립감 좋은 글라스 제품입니다."
+        },
+        {
+            "photo":["./new_img/kitchen/kitchen_Cabbage Ceramic Bowl_07.jpg","./new_img/kitchen/kitchen_Cabbage Ceramic Bowl_07.jpg","./new_img/kitchen/kitchen_Cabbage Ceramic Bowl_07_1.png","./new_img/kitchen/kitchen_Cabbage Ceramic Bowl_07_2.png"],
+            "title":"Cabbage Ceramic Bowl",
+            "price":"55,000",
+            "sub_text":"양배추 모양의 테이블웨어입니다.<br> 보울, 플레이트, 서빙 보울 세트로 구성되어있으며,<br> 서빙 보울 세트는 보울과 커버, 그리고 국자가 한 세트입니다."
+        },
+        {
+            "photo":["./new_img/kitchen/kitchen_Home Trolley_08.jpg","./new_img/kitchen/kitchen_Home Trolley_08.jpg","./new_img/kitchen/kitchen_Home Trolley_08_1.png","./new_img/kitchen/kitchen_Home Trolley_08_2.png"],
+            "title":"Home Trolley",
+            "price":"55,000",
+            "sub_text":"유리소재의 트롤리 입니다.<br> 핸들 부분은 우드로 되어있으며,<br> 서빙 트레이가 포함되어 매우 실용적 입니다. "
+        }
+    ],
+    
+    "sale":[
+        {
+            "photo": ["./new_img/as.jpg","./new_img/9.jpg","./new_img/20210701_114536.jpg"]
+        },
+        {
+            "photo": ["./new_img/category.jpg","./new_img/20210701_114804.jpg","./new_img/furniture_Used USM.jpg"]
+        }
     ]
 }
