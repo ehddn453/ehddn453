@@ -88,8 +88,15 @@ function callback(data){
                                         </li>`;
                 elOrderP.innerHTML = text;
                 elInputText.innerHTML = `<li>${title}<span>1개</span></li>`
+                //숫자로 변환
                 let priceNum = parseInt(price) * 1000;
                 let priceAll = priceNum + 2500;
+                //문자로 다시 변환
+                let txt = String(priceAll);
+                console.log(typeof txt);
+                //뒤에서 3번째 , 찍기
+                let txt1 = txt.slice(0, txt.length-3) + "," + txt.slice( txt.length-3, txt.length);
+                console.log(txt1);
                 elOrderSum.innerHTML = `<ul>
                                             <li>
                                                 총 수량 1 개 <span>${price} 원</span>
@@ -98,7 +105,7 @@ function callback(data){
                                                 배송비 <span>2,500 원</span>
                                             </li>
                                         </ul>
-                                        <h2>총 구매 금액 <span>${priceAll} 원</span></h2>`
+                                        <h2>총 구매 금액 <span>${txt1} 원</span></h2>`
                                         
 
             const elSubLi = document.querySelectorAll('.order_img ul li');
