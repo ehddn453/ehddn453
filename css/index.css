@@ -763,15 +763,25 @@ main > .bg{
 }
 @media(min-width:992px) and (max-width:1279px){
     .bt{display: none;}
-    main > .bg{height: 100vh;}
+    main > .bg{
+        background: url('../new_img/background/phone_background.png') no-repeat center;
+        background-size: 100vw 100vh;
+    }
+    main > .bg > video{display: none;}
     .main1 > .text > div{display: none;}
     .main1 > .text{
-        left: calc(50% - 32%); top: calc(50% - 10%);
+        left: calc(50% - 30%); top: calc(50% - 10%);
     }
-    .main1 > .text > a{margin-top: 20%;}
+    .main1 > .text >h2{color: #fff;}
+    .main1 > .text > a{
+        margin-top: 20%;
+        color: #fff;
+        border-color: #fff;
+    }
     .bt{display: none;}
     .main1 > .text > div{display: none;}
     /* main2  */
+    .main2{display: none;}
     .main2 > .diy{width: 90%;}
     .main2 > .diy > .left > h3{font-size: 1.2rem;}
     .main2 > .diy > .left > h2{margin-bottom: 5%;}
@@ -838,7 +848,7 @@ main > .bg{
         letter-spacing: 2vw;
     }
     .main3 > .main3-1 > figure > figcaption{
-        width: 100%;
+        width: 80%;
         margin: 0 auto;
     }
     .main3 > .main3-1 > figure > figcaption > span{
@@ -934,14 +944,20 @@ main > .bg{
     /* contact  */
 }
 @media(min-width:768px) and (max-width:991px){
-    main > .bg{height: 100vh;}
-    .main1 > .text{
-        left: calc(50% - 32%); top: calc(50% - 10%);
+    main > .bg{
+        background: url('../new_img/background/phone_background.png') no-repeat center;
+        background-size: 100vh;
     }
-    .main1 > .text > a{margin-top: 15%;}
+    main > .bg > video{display: none;}
+    .main1 > .text{
+        left: calc(50% - 30%); top: calc(50% - 8%);
+    }
+    .main1 > .text > h2{color: #fff;}
+    .main1 > .text > a{margin-top: 35%; color: #fff; border-color: #fff;}
     .bt{display: none;}
     .main1 > .text > div{display: none;}
     /* main2  */
+    .main2{display: none;}
     .main2 > .diy{width: 90%;}
     .main2 > .diy > .left > h3{font-size: 1.2rem;}
     .main2 > .diy > .left > h2{margin-bottom: 5%;}
@@ -1030,7 +1046,7 @@ main > .bg{
     }
     /* main3  */
     /* main4  */
-    .main4{width: 90%; margin-bottom: 20%;}
+    .main4{width: 90%; height: 60vh; margin-bottom: 20%;}
     .main4 > .sale{
         display: block;
     }
@@ -1113,8 +1129,11 @@ main > .bg{
     .bt{display: none;}
 
     main > .bg{
-        height: 100vh;
-
+        background: url('../new_img/background/phone_background.png') no-repeat center;
+        background-size: 100vh;
+    }
+    main > .bg > video{
+        display: none;
     }
     .main1 > .text > div{display: none;}
     .main1 > .text{
@@ -1122,14 +1141,17 @@ main > .bg{
         margin: 0 auto;
         text-align: center;
         position: absolute;
-        left: calc(50% - 35%); top: 35%;
+        left: calc(50% - 35%); top: 45%;
     }
     .main1 > .text > h2{
         font-size: 1.5rem;
         margin-bottom: 70%;
+        color: #fff;
     }
     .main1 > .text > a{
         font-size: 1rem;
+        color: #fff;
+        border-color: #fff;
     }
     /* main1  */
     /* main2  */
