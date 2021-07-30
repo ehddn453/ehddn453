@@ -1,3 +1,8 @@
+header{
+    background-color: rgba(0, 0, 0, 0.137);
+    padding-bottom: 0.5%;
+    padding-top: 1.5%;
+}
 
 
 /* items1  */
@@ -39,11 +44,23 @@
     
 }
 .items2 > .men{
-    width: 50%; height: 100%;
+    width: 20%; height: 100%;
     margin: 10% 5% 0 0;
     position: sticky;
     top: 10%;
     z-index: 995;
+}
+.items2 > .men > nav{
+    display: block;
+    width: 80%;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    line-height: 200%;
+    border-bottom: 1px solid rgb(161, 161, 161);
+    color: #000;
+    font-weight: normal;
+    cursor: pointer;
+
 }
 .items2 > .men > a{
     display: block;
@@ -54,22 +71,23 @@
     border-bottom: 1px solid rgb(161, 161, 161);
     color: #000;
     font-weight: normal;
-    transition: .5s;
 }
-.items2 > .men > a:nth-of-type(1) > span{
+.items2 > .men > nav > a{
     display: block;
     font-weight: normal;
     font-size: 0.8rem;
+    transition: .5s;
     display: none;
 }
-.items2 > .men > a:nth-of-type(1).active > span{
+.items2 > .men > nav.active > a{
     display: block;
     transition: .5s;
 }
-.items2 > .men > a:nth-of-type(1) > span:hover{color: salmon;}
+.items2 > .men > nav > a:hover{color: salmon;}
 .items2 > .diy{
     margin-top: 10%;
-
+    position: relative;
+    width: 100%;
 }
 .items2 > .diy > h3{
     color: #000;
@@ -78,6 +96,9 @@
     font-weight: normal;
     padding-top: 6%;
     margin-bottom: 3%;
+}
+.items2 > .diy > h3.active{
+    display: none;
 }
 .items2 > .diy > .item{
     display: flex;
@@ -131,6 +152,17 @@
 }
 .items2 > .men > a:hover{
     color: salmon;
+}
+.diy > .sort{
+    width: 15%;
+    position: absolute;
+    right: 0; top: 2.5%;
+}
+.diy > .sort > option{
+    font-weight: normal;
+}
+.items2 > .diy > .item.active{
+    display: none;
 }
 /* hover  */
 /* items2 */
@@ -277,4 +309,7 @@
         margin-top: 30%;
     }
     .items2 > .diy > .item > li > a > article > p{display: none;}
+    .diy > .sort{
+        width: 30%;
+    }
 }

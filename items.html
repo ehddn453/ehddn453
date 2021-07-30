@@ -39,20 +39,26 @@
         </div>
         <div class="items2">
             <nav class="men">
-                <a href="items.html#s">
+                <nav>
                     d.i.y ▼
-                    <span id="s">(s) size</span>
-                    <span>(m) size</span>
-                    <span>(l) size</span>
-                </a>
+                    <a href="items.html#s">(s) size</a>
+                    <a href="items.html#m">(m) size</a>
+                    <a href="items.html#l">(l) size</a>
+                </nav>
                 <a href="item2.html#fur">furniture</a>
                 <a href="item2.html#wood">wood</a>
                 <a href="item2.html#kit">kitchen</a>
-
             </nav>
+            
             <article class="diy">
+                <select class="sort" id="selectbox" onchange="select()">
+                    <option value="all" selected>All</option>
+                    <option value="diys">Diy (S)</option>
+                    <option value="diym">Diy (M)</option>
+                    <option value="diyl">Diy (L)</option>
+                </select>
                 <h3 id="s">> D.I.Y(s)</h3>
-                <ul class="item">
+                <ul class="item" value="diys">
                     <li>
                         <a>
                             <img src="new_img/furniture/furniture_Used USM_01.jpg" alt="1">
@@ -183,7 +189,7 @@
                     </li>
                 </ul>
                 <h3 id="m">> D.I.Y(m)</h3>
-                <ul class="item">
+                <ul class="item" value="diym">
                     <li>
                         <a>
                             <img src="new_img/wood/wood_chair1.jpg" alt="1">
@@ -313,8 +319,9 @@
                         </a>
                     </li>
                 </ul>
+
                 <h3 id="l">> D.I.Y(l)</h3>
-                <ul class="item">
+                <ul class="item" value="diyl">
                     <li>
                         <a>
                             <img src="new_img//kitchen/kitchen_Crystal wine Glass_01.jpg" alt="1">

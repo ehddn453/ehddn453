@@ -1,6 +1,6 @@
 //왼쪽 diy메뉴 만들기 
-const elA1 = document.querySelector('.items2 .men a:nth-of-type(1)'),
-      elSpan = document.querySelectorAll('.items2 .men a:nth-of-type(1) span');
+const elA1 = document.querySelector('.items2 .men nav'),
+      elSpan = document.querySelectorAll('.items2 .men nav a');
 
 elA1.addEventListener('mouseenter',function(){
     elA1.classList.add('active');
@@ -117,3 +117,63 @@ function callback(data){
         });
     };
 }
+
+//sort 사용
+const elOption = document.querySelector('.diy .sort'),
+      elItem1 = document.querySelector('.diy ul:nth-of-type(1)'),
+      elItem2 = document.querySelector('.diy ul:nth-of-type(2)'),
+      elItem3 = document.querySelector('.diy ul:nth-of-type(3)'),
+      elh3_1 = document.querySelector('#s'),
+      elh3_2 = document.querySelector('#m'),
+      elh3_3 = document.querySelector('#l');
+
+
+    function select(){
+        var elOptionValue = elOption.options[elOption.selectedIndex].value;
+        console.log(elOptionValue)
+
+        if(elOptionValue == 'diys'){ //diys 클릭 시
+            diys()
+        } else if(elOptionValue == 'diym'){ //diym 클릭 시
+            diym()
+        }else if(elOptionValue == 'diyl'){ //diyl 클릭 시
+            diyl()
+        }else if(elOptionValue == 'all'){
+            elh3_1.classList.remove('active');
+            elh3_2.classList.remove('active');
+            elh3_3.classList.remove('active'); 
+            elItem1.classList.remove('active');
+            elItem2.classList.remove('active');
+            elItem3.classList.remove('active');
+        }
+    };
+    
+//함수
+function diys(){
+    elh3_1.classList.remove('active');            
+    elItem1.classList.remove('active');
+
+    elh3_2.classList.add('active');
+    elh3_3.classList.add('active');
+    elItem2.classList.add('active');
+    elItem3.classList.add('active');
+};
+function diym(){
+    elh3_2.classList.remove('active'); 
+    elItem2.classList.remove('active');
+
+    elh3_1.classList.add('active');
+    elh3_3.classList.add('active');
+    elItem1.classList.add('active');
+    elItem3.classList.add('active');
+};
+function diyl(){
+    elh3_3.classList.remove('active'); 
+    elItem3.classList.remove('active');
+
+    elh3_1.classList.add('active');
+    elh3_2.classList.add('active');
+    elItem1.classList.add('active');
+    elItem2.classList.add('active');
+};
+
