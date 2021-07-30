@@ -85,7 +85,7 @@ header{
 }
 .items2 > .men > nav > a:hover{color: salmon;}
 .items2 > .diy{
-    margin-top: 10%;
+    margin-top: 5%;
     position: relative;
     width: 100%;
 }
@@ -105,7 +105,7 @@ header{
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
-    margin-bottom: 15%;
+    margin-bottom: 8%;
 }
 .items2 > .diy > .item > li{
     margin-bottom: 5%;

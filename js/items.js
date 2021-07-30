@@ -133,11 +133,11 @@ const elOption = document.querySelector('.diy .sort'),
         console.log(elOptionValue)
 
         if(elOptionValue == 'diys'){ //diys 클릭 시
-            diys()
+            diys();
         } else if(elOptionValue == 'diym'){ //diym 클릭 시
-            diym()
+            diym();
         }else if(elOptionValue == 'diyl'){ //diyl 클릭 시
-            diyl()
+            diyl();
         }else if(elOptionValue == 'all'){
             elh3_1.classList.remove('active');
             elh3_2.classList.remove('active');
@@ -177,3 +177,36 @@ function diyl(){
     elItem2.classList.add('active');
 };
 
+const elSizeS = document.querySelector('.men nav a:nth-of-type(1)'),
+      elSizeM = document.querySelector('.men nav a:nth-of-type(2)'),
+      elSizeL = document.querySelector('.men nav a:nth-of-type(3)');
+
+elSizeS.addEventListener('click',function(){
+    diys();
+    elOption.innerHTML = `<option value="all">All</option>
+                            <option value="diys" selected>Diy (S)</option>
+                            <option value="diym">Diy (M)</option>
+                            <option value="diyl">Diy (L)</option>`
+});
+elSizeM.addEventListener('click',function(){
+    diym();
+    elOption.innerHTML = `<option value="all">All</option>
+                            <option value="diys">Diy (S)</option>
+                            <option value="diym" selected>Diy (M)</option>
+                            <option value="diyl">Diy (L)</option>`
+});
+
+elSizeL.addEventListener('click',function(){
+    diyl();
+    elOption.innerHTML = `<option value="all">All</option>
+                            <option value="diys">Diy (S)</option>
+                            <option value="diym">Diy (M)</option>
+                            <option value="diyl" selected>Diy (L)</option>`
+});
+
+
+
+
+
+// const num =10000000000000000000;
+// console.log( num.toLocaleString("ko-KR") );
